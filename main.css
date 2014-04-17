@@ -1,0 +1,105 @@
+body {
+	font-family: 'Rock Salt';
+	background-color: #99FF33;
+}
+
+button {
+	border: none;
+	background-color: #847458;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.header button {
+	padding: 10px 15px;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 80%;
+	margin: auto;
+	position: relative;
+	margin-top: 250px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image:  url(header.jpg);  
+	width: 100%;
+	box-shadow: 0 0 10px 0;
+	padding: 20px 0;
+	z-index: 999;
+	color: #009933;
+}
+
+.header h1, .button-div {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+}
+
+.author {
+	cursor: pointer;
+}
+
+.quotebox {
+	border-top: 1px solid #90B5F4;	
+	border-bottom: 1px solid #90B5F4;
+	margin: 10px 0;
+}
+
+.mainquote {
+	width: 65%;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 5px; 
+	border-left: 1px solid #F4C6D9;
+}
+
+.stars {
+	width: 20%;
+	display: inline-block;
+}
+
+.input-quote {
+	display:none;
+	position: relative;
+	margin-bottom: 30px;
+	padding-right: 0;
+	padding: 5px 0;
+}
+
+textarea {
+	display: inline-block;
+	margin: 20px 0;
+	width: 500px;
+	height: 60px;
+	vertical-align: middle;
+}
+
+form p {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.submit-div {
+	position: absolute;
+	right: 0;
+
+}
+
+.starwrapper {
+	margin-bottom: 20px;
+}
+
+.star-image {
+	max-height: 20px;
+	cursor:
+}
